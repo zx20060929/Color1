@@ -1,0 +1,10 @@
+{
+  "mcp": {
+    "godot": {
+      "type": "local",
+      "command": [ "C:\\Users\\zx\\.local\\bin\\uvx.exe", "godot-ai" ],
+      "enabled": true,
+      "timeout": 30000
+    }
+  }
+}

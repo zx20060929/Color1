@@ -62,8 +62,7 @@ func _process(_delta: float) -> void:
 	var tex: Texture2D = frames.get_frame_texture(anim, frame)
 	texture = tex
 	flip_h = _source.flip_h
-	# 倒影：垂直镜像，让「脚」贴地、头朝下（投影向镜头），与树的 tree_shadow 方向一致。
-	flip_v = true
+	flip_v = _source.flip_v
 
 	_update_region(tex)
 	_update_lift()
